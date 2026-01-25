@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Monoton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(232, 231, 231);
+  box-shadow: 0 2px 4px rgba(64, 63, 63, 0.4);
+  padding: 0 2rem;
+  color: rgb(234, 141, 3);
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  word-spacing: 10px;
+}
+
+.hero img {
+  width: 50%;
+}
