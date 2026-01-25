@@ -10,18 +10,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 6px;
   width: 100%;
+  height: 100px;
   background-color: rgb(232, 231, 231);
   box-shadow: 0 2px 4px rgba(64, 63, 63, 0.4);
-  padding: 0 2rem;
+  padding: 0 1rem;
   color: rgb(234, 141, 3);
   font-family: "Monoton", sans-serif;
-  font-weight: 400;
+  font-size: 6px;
+  font-weight: 200;
   text-transform: uppercase;
   text-align: left;
-  word-spacing: 10px;
+  word-spacing: 5px;
 }
 
 .hero img {
-  width: 50%;
+  width: 40%;
 }
+
